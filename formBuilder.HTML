@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="assets/css/demo.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.1/jquery.rateyo.min.css">
+
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>jQuery formBuilder/formRender Demo</title>
+</head>
+
+<body>
+  <div class="content">
+    <h1>jQuery formBuilder</h1>
+    <div id="stage1" class="build-wrap">
+	<div id="frmb-1539875203779-form-wrap" class="form-wrap form-builder"><div id="frmb-1539875203779-stage-wrap" class="stage-wrap pull-left empty" data-content="Drag a field from the right to this area"><ul id="frmb-1539875203779" class="frmb ui-sortable" style="min-height: 586px;"></ul></div><div id="frmb-1539875203779-cb-wrap" class="cb-wrap pull-right"><ul id="frmb-1539875203779-control-box" class="frmb-control sort-enabled ui-sortable"><li class="icon-autocomplete input-control input-control-15 ui-sortable-handle" data-type="autocomplete-4911"><span>Custom Autocomplete</span></li><li class="icon-button input-control input-control-1 ui-sortable-handle" data-type="button"><span>Button</span></li><li class="icon-checkbox-group input-control input-control-6 ui-sortable-handle" data-type="checkbox-group"><span>Checkbox Group</span></li><li class="icon-date input-control input-control-11 ui-sortable-handle" data-type="date"><span>Date Field</span></li><li class="icon-file input-control input-control-10 ui-sortable-handle" data-type="file"><span>File Upload</span></li><li class="icon-header input-control input-control-4 ui-sortable-handle" data-type="header"><span>Header</span></li><li class="icon-hidden input-control input-control-2 ui-sortable-handle" data-type="hidden"><span>Hidden Input</span></li><li class="icon-paragraph input-control input-control-3 ui-sortable-handle" data-type="paragraph"><span>Paragraph</span></li><li class="icon-number input-control input-control-12 ui-sortable-handle" data-type="number"><span>Number</span></li><li class="icon-radio-group input-control input-control-7 ui-sortable-handle" data-type="radio-group"><span>Radio Group</span></li><li class="icon-select input-control input-control-5 ui-sortable-handle" data-type="select"><span>Select</span></li><li class="icon-text input-control input-control-9 ui-sortable-handle" data-type="text"><span>Text Field</span></li><li class="icon-textarea input-control input-control-16 ui-sortable-handle" data-type="textarea-4895"><span>tinyMCE</span></li><li class="input-control input-control-14 ui-sortable-handle" data-type="starRating"><span><span class="control-icon">🌟</span>Star Rating</span></li><li class="input-set-control input-set-0 ui-sortable-handle" data-type="user-details"><span class="control-icon">👨</span>User Details</li></ul><div class="form-actions btn-group"><button type="button" id="frmb-1539875203779-clear-action" class="clear-all btn btn-danger">Clear</button><button type="button" id="frmb-1539875203779-data-action" class="btn btn-default get-data">{  }</button><button type="button" id="frmb-1539875203779-save-action" class="btn btn-primary save-template">Save</button><button id="frmb-1539875203779-smile-action" class="btn btn-success" type="button">😁</button></div></div></div>
+	</div>
+    <form class="render-wrap"></form>
+    <button id="edit-form">Edit Form</button>
+    <div class="action-buttons">
+      <h2>Actions</h2>
+      <button id="showData" type="button">Show Data</button>
+      <button id="clearFields" type="button">Clear All Fields</button>
+      <button id="getData" type="button">Get Data</button>
+      <button id="getXML" type="button">Get XML Data</button>
+      <button id="getJSON" type="button">Get JSON Data</button>
+      <button id="getJS" type="button">Get JS Data</button>
+      <button id="setData" type="button">Set Data</button>
+      <button id="addField" type="button">Add Field</button>
+      <button id="removeField" type="button">Remove Field</button>
+      <button id="testSubmit" type="submit">Test Submit</button>
+      <button id="resetDemo" type="button">Reset Demo</button>
+      <h2>i18n</h2>
+      <select id="setLanguage">
+        <option value="ar-TN" dir="rtl">تونسي</option>
+        <option value="de-DE">Deutsch</option>
+        <option value="en-US">English</option>
+        <option value="es-ES">español</option>
+        <option value="fa-IR" dir="rtl">فارسى</option>
+        <option value="fr-FR">français</option>
+        <option value="nb-NO">norsk</option>
+        <option value="nl-NL">Nederlands</option>
+        <option value="pt-BR">português</option>
+        <option value="ro-RO">român</option>
+        <option value="ru-RU">Русский язык</option>
+        <option value="tr-TR">Türkçe</option>
+        <option value="vi-VN">tiếng việt</option>
+        <option value="zh-TW">台語</option>
+      </select>
+    </div>
+  </div>
+  <script src="assets/js/vendor.js"></script>
+  <script src="assets/js/form-builder.min.js"></script>
+  <script src="assets/js/form-render.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.1/jquery.rateyo.min.js"></script>
+  <script src="assets/js/demo.js"></script>
+</body>
+
+</html>
